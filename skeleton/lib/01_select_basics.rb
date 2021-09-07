@@ -68,8 +68,7 @@ def scandinavia
     FROM
       countries
     WHERE
-      
-
+      name = 'Sweden' OR name = 'Denmark' OR name = 'Finland' OR name = 'Norway';
   SQL
 end
 
